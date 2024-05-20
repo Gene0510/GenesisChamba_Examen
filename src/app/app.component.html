@@ -1,0 +1,10 @@
+<div class="bg-yellow-900 py-3 px-6 shadow-2 flex items-center  lg:static border-b-1 border-gray-800">
+  <h1 class="text-white mr-auto">Examen/Genesis Chamba/4to A</h1>
+  <p-menubar [model]="menuItems" class="ml-auto mt-2"></p-menubar>
+  <div  *ngFor="let item of items" class="text-white flex-column">
+      {{item.name}}
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
